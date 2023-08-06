@@ -1,0 +1,80 @@
+.navparent{
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    background-color: #FFFFFF;
+}
+.logo {
+    width: 20%;
+}
+.logo img{
+    display: flex;
+    margin: 0% auto;
+}
+.navitem{
+    display: flex ;
+    width: 60%;
+    align-items: center;
+    gap: 40px;
+    margin-left: 20%;
+}
+.menuitem a{
+    justify-content: center;
+    align-items: center ;
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+}
+.button{
+    width: 15%;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 32px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+}
+.burger-bar{
+    width: 5%;
+    display: none;
+}
+.fa-solid{
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 13px 0 0 13px;
+    border-radius: 50%;
+}
+.section1parent{
+    display: flex;
+    width: 100%;
+    margin: 65px 0 65px 0;
+}
+.section1child1{
+    width: 50%;
+    padding: 80px 80px 80px 120px ;
+}
+.section1child1 h2{
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+.section1child1 p{
+    margin: 25px 0 40px 0;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+.butoninfo{
+    display: flex;
+    width: 90%;
+    gap: 20px;
+}
+.butoninfo p{
+    width: 70%;
+    margin: 0px;
+    font-weight: 600;
+}
+.section1child2{
+    margin-left: 50px;
+}
